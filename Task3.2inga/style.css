@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(images/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-color: rgb(252, 247, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.separator {
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-image: linear-gradient(to top, rgb(252, 247, 247), rgb(194, 189, 189), rgb(252, 247, 247));
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+
+.name {
+    color: rgb(65, 166, 206);
+}
